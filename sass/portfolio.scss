@@ -5,26 +5,12 @@
 @import './utils/_variables.scss';
 @import './utils/visually-hidden.scss';
 
-@import './components/_section-title.scss';
 @import './components/_logo.scss';
-@import './components/_social-icon.scss';
-@import './components/backdrop';
-@import './components/modal-form';
-@import './components/modal-window'; 
 @import './components/subscription';
 @import './components/after-line';
 @import './components/footer-social-icon';
 
-@import './layout/_hero.scss';
 @import './layout/_header.scss';
-@import  './layout/_priorities.scss';
-@import './layout/_work.scss';
-@import './layout/_team.scss';
-@import './layout/_customer.scss';
-@import './layout/_footer.scss';
 @import './layout/button-filter';
 @import './layout/projects';
-
-
-
-
+@import './layout/_footer.scss';

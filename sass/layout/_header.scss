@@ -24,9 +24,10 @@
     letter-spacing: 0.02em;
     color: var(--color-dark);
     transition: color var(--transition-dur-and-func);
+&:hover,
+&:focus { color:var(--color-dark-blue)}
 }
-.menu-nav-link:hover,
-.menu-nav-link:focus { color:var(--color-dark-blue)}
+
  
 
 
@@ -46,29 +47,33 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     transition: color var(--transition-dur-and-func);
-}
-.item-link:hover, 
-.item-link:focus { color:var(--color-dark-blue)}
+&:hover, 
+&:focus { color:var(--color-dark-blue)}
 
+&:hover .contact-email-icon,
+&:focus .contact-email-icon {
+    fill: var(--color-light-blue)
+}
+&:hover .contact-telephone-icon,
+&:focus .contact-telephone-icon {
+    fill: var(--color-light-blue)
+}
+}
+
+%exchange {
+    fill: var(--color-light-grey);
+    margin-right: 10px;
+    transition: fill var(--transition-dur-and-func);
+}
 .contact-email-icon {
+    @extend %exchange;
     width: 16px;
     height: 12px;
-    fill: var(--color-light-grey);
-    margin-right: 10px;
-    transition: fill var(--transition-dur-and-func);
+
 }
 .contact-telephone-icon {
+    @extend %exchange;
     width: 10px;
     height: 16px;
-    fill: var(--color-light-grey);
-    margin-right: 10px;
-    transition: fill var(--transition-dur-and-func);
 }
-.item-link:hover .contact-email-icon,
-.item-link:focus .contact-email-icon {
-    fill: var(--color-light-blue)
-}
-.item-link:hover .contact-telephone-icon,
-.item-link:focus .contact-telephone-icon {
-    fill: var(--color-light-blue)
-}
+

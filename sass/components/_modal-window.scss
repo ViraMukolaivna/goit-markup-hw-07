@@ -28,12 +28,12 @@
     border-radius: 50%;
     padding: 0;
     transition: fill var(--transition-dur-and-func);
-    
+
 }
 .modal-input-icon {
     transition: fill var(--transition-dur-and-func);
-}
-.modal-close-btn:hover .modal-close-icon,
-.modal-close-btn:focus .modal-close-icon {
+.modal-close-btn:hover &,
+.modal-close-btn:focus & {
     fill: var(--color-light-blue)
+}    
 }

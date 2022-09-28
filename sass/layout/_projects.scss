@@ -10,15 +10,12 @@
 .card-project-link {
     display: block;
     transition: box-shadow var(--transition-dur-and-func);
+&:hover { 
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
+&:focus { 
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),  1px 4px 6px rgba(0, 0, 0, 0.16);}
 }
-.card-project-link:hover { 
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
- 0px 4px 4px rgba(0, 0, 0, 0.06),
-  1px 4px 6px rgba(0, 0, 0, 0.16);}
-.card-project-link:focus { 
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
- 0px 4px 4px rgba(0, 0, 0, 0.06),
-  1px 4px 6px rgba(0, 0, 0, 0.16);}
+
 .img-overlay {
     position: relative;
     overflow: hidden;
@@ -43,11 +40,11 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     top: 0;
     left: 0;
     transition: var(--transition-dur-and-func);
+    .card-project-link:hover &,
+    .card-project-link:focus & {
+    transform: translateY(0%);}
 }
-.card-project-link:hover .overlay,
-.card-project-link:focus .overlay {
-    transform: translateY(0%);
-}
+
 .info-project {
     display: block;
     padding: 20px 24px;
