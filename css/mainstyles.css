@@ -53,8 +53,12 @@ ul {
 
 
 /* ===================ХЕДЕР ГОЛОВНОЇ СТОРІНКИ==================== */
-
-.page-header-container {
+.header {
+    background-color: var(--color-white);
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.header-container {
     display: flex; 
     align-items: center; 
     justify-content: space-between;
@@ -63,11 +67,6 @@ ul {
 .page-nav {
     display: flex;
     align-items: center;
-}
-.header {
-    background-color: var(--color-white);
-    padding-top: 24px;
-    padding-bottom: 25px;
 }
 
 .head-web-studio {
@@ -85,7 +84,7 @@ ul {
 .second-part {
     color: #000000 ;
 }
-.navigation-menu {
+.navigation-menu-list {
     display: flex;
     column-gap: 50px;
 }
@@ -122,8 +121,6 @@ ul {
 .contacts-list {
     display: flex;
 }
-
-
 .item-email {
     margin-right: 50px;
 }
@@ -140,19 +137,6 @@ ul {
 }
 .item-link:hover, 
 .item-link:focus { color:var(--color-dark-blue)}
-
-.item-link-icon {
-   margin-right: 10px;
-}
-.item-link:hover .contact-email-icon,
-.item-link:focus .contact-email-icon {
-    fill: var(--color-light-blue)
-}
-.item-link:hover .contact-telephone-icon,
-.item-link:focus .contact-telephone-icon {
-    fill: var(--color-light-blue)
-}
-
 .contact-email-icon {
     width: 16px;
     height: 12px;
@@ -167,13 +151,23 @@ ul {
     margin-right: 10px;
     transition: fill var(--transition-dur-and-func);
 }
+.item-link:hover .contact-email-icon,
+.item-link:focus .contact-email-icon {
+    fill: var(--color-light-blue)
+}
+.item-link:hover .contact-telephone-icon,
+.item-link:focus .contact-telephone-icon {
+    fill: var(--color-light-blue)
+}
+
+
 
 /* =========ХЕДЕР ГОЛОВНОЇ СТОРІНКИ=================*/
     
  /* ======================МЕЙН================== */
     
 /* ===================ШАПКА==================== */
-.section-decision {  
+.section-hero {  
     color: var(--color-white);
     font-family: var(--primary-font);
     padding-top: 200px;
@@ -189,7 +183,7 @@ ul {
     margin: 0 auto; 
 }
 
-.title-decision {
+.title-hero {
     font-family: var(--primary-font);
     font-weight: 900;
     font-size: 44px;
@@ -197,7 +191,7 @@ ul {
     text-transform: uppercase;
     margin-bottom: 30px;
 }
-.button-order {
+.button-hero {
     background-color: var(--color-light-blue);
     color: var(--color-white);
     font-family: var(--primary-font);
@@ -214,15 +208,12 @@ ul {
     padding-right: 32px;
     transition: background-color var(--transition-dur-and-func);
 }
-    .button-order:hover,
-    .button-order:focus {
+    .button-hero:hover,
+    .button-hero:focus {
      background-color:var(--color-dark-blue); }
 /* ===================ШАПКА==================== */
 
 /* ==========ОСОБЛИВОСТІ=========================== */
-
-
-    
 .features-item {
     background-color: #F5F4FA;
     display: flex;
@@ -474,11 +465,13 @@ ul {
 .bottom-contacts {
     color: #ffffff99;
 }
-.geo:hover { color:var(--color-dark-blue)}
-.bottom-contacts:hover { color:var(--color-dark-blue)}
+.geo, 
+.bottom-contacts:hover 
+{ color:var(--color-dark-blue)}
 
-.geo:focus { color:var(--color-dark-blue)} 
-.bottom-contacts:focus { color:var(--color-dark-blue)} 
+.geo, 
+.bottom-contacts:focus 
+{ color:var(--color-dark-blue)} 
 
 
 .social-title {
@@ -532,59 +525,6 @@ ul {
 
 
 /* ===========ХЕДЕР ПОРТФОЛІО================== */
-
-.page-header-container {
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between;
-   
-}
-.page-nav {
-    display: flex;
-    align-items: center;
-}
-.header {
-    background-color: var(--color-white);
-    padding-top: 24px;
-    padding-bottom: 25px;  
-    border-bottom: 1px solid #ECECEC;
-}
-
-.head-web-studio {
-    font-family: var(--secondary-font);
-    font-weight: 700;
-    font-style: normal;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: var(--letter-spacing-normal);
-    margin-right: 93px;
-}
-.first-part {
-    color: var(--color-light-blue);
-}
-.second-part {
-    color: #000000 ;
-}
-.navigation-menu {
-    display: flex;
-    column-gap: 50px;
-}
-
-.menu-nav-link {
-    font-family: var(--primary-font);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--color-dark);
-    transition: color var(--transition-dur-and-func);
-}
-.menu-nav-link:hover { color:var(--color-dark-blue)}
-.menu-nav-link:focus { color:var(--color-dark-blue)} 
-
-.nav-active {
-    color: var(--color-light-blue);
-}
 
 .f-nav-active::after {
     content: "";
@@ -732,44 +672,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 
 
 /* ====================ФУТЕР ПОРТФОЛІО============*/
-.footer {
-    background-color: var(--color-dark-grey);
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.footer-a {
-    font-style:normal;
- }   
-.f-first-part {
-    color: var(--color-light-blue);
-}
-.f-second-part {
-    color: var(--color-white) ;
-}
-
-
-
-.geo,
-.bottom-contacts {
-    font-family: var(--primary-font);
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: var(--letter-spacing-normal);
-    transition: color var(--transition-dur-and-func);
-}
-.geo {
-    color: var(--color-white);  
-}
-.bottom-contacts { 
-    color: #ffffff99; 
-}
-.geo:hover, 
-.geo:focus,
-.bottom-contacts:hover, 
-.bottom-contacts:focus   { 
-    color:var(--color-dark-blue);
-}
+  
 /* ====================ФУТЕР ПОРТФОЛІО============*/
 
 /* ================РОЗСИЛКА=================== */

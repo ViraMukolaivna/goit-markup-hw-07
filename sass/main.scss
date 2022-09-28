@@ -9,7 +9,12 @@
 @import './components/_header-logo-web-studio.scss';
 @import './components/_footer-logo-web-studio.scss';
 @import './components/_social-icon.scss';
- 
+@import './components/backdrop';
+@import './components/modal-form';
+@import './components/modal-window'; 
+@import './components/subscription';
+@import './components/after-line';
+
 @import './layout/_hero.scss';
 @import './layout/_header.scss';
 @import  './layout/_priorities.scss';
@@ -17,16 +22,12 @@
 @import './layout/_team.scss';
 @import './layout/_customer.scss';
 @import './layout/_footer.scss';
+@import './layout/button-filter';
+@import './layout/projects';
 
 
-@import '';
-@import '';
-@import '';
-@import '';
 
-@import '';
-@import '';
-@import '';
+
 @import '';
  
 @import '';

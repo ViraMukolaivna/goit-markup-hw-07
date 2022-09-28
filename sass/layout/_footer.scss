@@ -3,23 +3,19 @@
     padding-top: 60px;
     padding-bottom: 60px;
     display: flex;
-    }
-.fotter-a {
-    font-style: normal;
-    margin-right: 70px;
-
 }
-.footer-block {
+.footer-container {
     display: flex;
     align-items: baseline;
+}    
+.fotter-address {
+    font-style: normal;
+    margin-right: 70px;
 }
-
-
 .f-contact-list {
   display: inline;
 }
-
-.f-contact:not(:last-child) {
+.f-contact-item:not(:last-child) {
   margin-bottom: 9px;
 }
 .geo,
@@ -41,6 +37,7 @@
 
 .geo:focus { color:var(--color-dark-blue)} 
 .bottom-contacts:focus { color:var(--color-dark-blue)} 
+
 .social-title {
     font-family: var(--primary-font);
     font-weight: 700;

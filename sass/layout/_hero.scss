@@ -1,4 +1,4 @@
-.section-decision {  
+.section-hero {  
     color: var(--color-white);
     font-family: var(--primary-font);
     padding-top: 200px;
@@ -14,7 +14,7 @@
     margin: 0 auto; 
 }
 
-.title-decision {
+.title-hero {
     font-family: var(--primary-font);
     font-weight: 900;
     font-size: 44px;
@@ -22,7 +22,7 @@
     text-transform: uppercase;
     margin-bottom: 30px;
 }
-.button-order {
+.button-hero {
     background-color: var(--color-light-blue);
     color: var(--color-white);
     font-family: var(--primary-font);
@@ -39,6 +39,6 @@
     padding-right: 32px;
     transition: background-color var(--transition-dur-and-func);
 }
-    .button-order:hover,
-    .button-order:focus {
-     background-color:var(--color-dark-blue); }
+.button-hero:hover,
+.button-hero:focus {
+background-color:var(--color-dark-blue); }

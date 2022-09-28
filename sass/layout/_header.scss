@@ -1,4 +1,9 @@
-.page-header-container {
+.header {
+    background-color: var(--color-white);
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.header-container {
     display: flex; 
     align-items: center; 
     justify-content: space-between;
@@ -7,13 +12,7 @@
     display: flex;
     align-items: center;
 }
-.header {
-    background-color: var(--color-white);
-    padding-top: 24px;
-    padding-bottom: 25px;
-}
-
-.navigation-menu {
+.navigation-menu-list {
     display: flex;
     column-gap: 50px;
 }
@@ -29,20 +28,7 @@
 .menu-nav-link:hover,
 .menu-nav-link:focus { color:var(--color-dark-blue)}
  
-.nav-active {
-    color: var(--color-light-blue);
-}
-.nav-active::after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 48px;
-    height: 4px;
-    background: var(--color-light-blue);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 28px;
-}
+
 
 .contacts-list {
     display: flex;
@@ -64,9 +50,6 @@
 .item-link:hover, 
 .item-link:focus { color:var(--color-dark-blue)}
 
-.item-link-icon {
-   margin-right: 10px;
-}
 .contact-email-icon {
     width: 16px;
     height: 12px;
@@ -89,4 +72,3 @@
 .item-link:focus .contact-telephone-icon {
     fill: var(--color-light-blue)
 }
-

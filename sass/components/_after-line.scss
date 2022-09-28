@@ -1,0 +1,26 @@
+.nav-active::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 48px;
+    height: 4px;
+    background: var(--color-light-blue);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28px;
+}
+.nav-active {
+    color: var(--color-light-blue);
+}
+
+.f-nav-active::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 78px;
+    height: 4px;
+    background: var(--color-light-blue);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28px;
+}
