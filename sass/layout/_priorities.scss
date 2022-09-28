@@ -1,0 +1,40 @@
+.features-item {
+    background-color: #F5F4FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+.features-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.priorities {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    letter-spacing: var(--letter-spacing-normal);
+}
+    
+.priorities-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+.item-priorities {
+    flex-basis: calc((100% - 90px) / 4);
+}
+.title {   
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: var(--color-dark);
+}
+.text {   
+    line-height: 24px;            
+    color: var(--color-light-grey);
+    margin-top: 10px;
+}

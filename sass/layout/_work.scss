@@ -1,0 +1,28 @@
+.working {
+    padding-top: 0;
+}
+.working-list {
+    display: flex;
+    justify-content: space-between;
+}
+.working-space {
+    position: relative;
+}
+.working-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background: rgba(47, 48, 58, 0.8);
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: var(--letter-spacing-normal);
+    text-transform: uppercase;
+    color: var(--color-white);
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    width: 100%;
+}
