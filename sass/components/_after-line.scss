@@ -1,4 +1,4 @@
-.nav-active {
+.menu__link_current {
     color: var(--color-light-blue);
 &::after {
     content: "";
@@ -12,7 +12,7 @@
     width: 48px;
 }    
 }
-.f-nav-active {
+.menu__link_portfolio_current {
     color: var(--color-light-blue);
 &::after {
     content: "";

@@ -12,11 +12,11 @@
     display: flex;
     align-items: center;
 }
-.navigation-menu-list {
+.menu {
     display: flex;
     column-gap: 50px;
 }
-.menu-nav-link {
+.menu__link {
     @include font (500, 14px);
     line-height: 1,14;
     letter-spacing: 0.02em;
@@ -27,47 +27,4 @@
 }
 
  
-
-
-.contacts-list {
-    display: flex;
-}
-.item-email {
-    margin-right: 50px;
-}
-.item-link {
-    @include font (500, 14px, 1,14);
-    display: flex;
-    align-items: center; 
-    color: var(--color-light-grey);
-    letter-spacing: 0.02em;
-    transition: color var(--transition-dur-and-func);
-&:hover, 
-&:focus { color:var(--color-dark-blue)}
-
-&:hover .contact-email-icon,
-&:focus .contact-email-icon {
-    fill: var(--color-light-blue)
-}
-&:hover .contact-telephone-icon,
-&:focus .contact-telephone-icon {
-    fill: var(--color-light-blue)
-}
-}
-
-.contact-email-icon {
-    fill: var(--color-light-grey);
-    margin-right: 10px;
-    transition: fill var(--transition-dur-and-func);
-    width: 16px;
-    height: 12px;
-
-}
-.contact-telephone-icon {
-    fill: var(--color-light-grey);
-    margin-right: 10px;
-    transition: fill var(--transition-dur-and-func);
-    width: 10px;
-    height: 16px;
-}
 

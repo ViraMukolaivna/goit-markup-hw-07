@@ -1,0 +1,43 @@
+
+
+.contacts {
+    display: flex;
+}
+.contacts__email-item {
+    margin-right: 50px;
+}
+.contacts__link {
+    @include font (500, 14px, 1,14);
+    display: flex;
+    align-items: center; 
+    color: var(--color-light-grey);
+    letter-spacing: 0.02em;
+    transition: color var(--transition-dur-and-func);
+&:hover, 
+&:focus { color:var(--color-dark-blue)}
+
+&:hover .contacts__email-icon,
+&:focus .contacts__email-icon {
+    fill: var(--color-light-blue)
+}
+&:hover .contacts__telephone-icon,
+&:focus .contacts__telephone-icon {
+    fill: var(--color-light-blue)
+}
+}
+
+.contacts__email-icon {
+    fill: var(--color-light-grey);
+    margin-right: 10px;
+    transition: fill var(--transition-dur-and-func);
+    width: 16px;
+    height: 12px;
+
+}
+.contacts__telephone-icon {
+    fill: var(--color-light-grey);
+    margin-right: 10px;
+    transition: fill var(--transition-dur-and-func);
+    width: 10px;
+    height: 16px;
+}

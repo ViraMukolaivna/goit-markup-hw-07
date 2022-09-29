@@ -1,14 +1,14 @@
-.working {
+.work {
     padding-top: 0;
 }
-.working-list {
+.work__list {
     display: flex;
     justify-content: space-between;
 }
-.working-space {
+.work__card_img {
     position: relative;
 }
-.working-text {
+.work__card_text {
     @include font ( 700, 14px);
     line-height: 1,14;
     display: flex;

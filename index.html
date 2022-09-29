@@ -9,8 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
-    <base href="/">
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 <body>
 <!-- /* ===================ХЕДЕР ГОЛОВНОЇ СТОРІНКИ==================== */ -->
@@ -19,32 +18,32 @@
         <nav class="page-navigation">
             <a class="logo list link" href="./index.html">
                 <span class="logo__first-part">Web</span><span class="logo__second-part">Studio</span></a>
-            <ul class="navigation-menu-list list" >
+            <ul class="menu list" >
                 <li>
-                    <a class="nav-active menu-nav-link  link" href="./index.html">Студія</a>
+                    <a class="menu__link menu__link_current link" href="./index.html">Студія</a>
                 </li>
                 <li>
-                    <a class="menu-nav-link link" href="./portofolio.html">Портфоліо</a>
+                    <a class="menu__link link" href="./portofolio.html">Портфоліо</a>
                 </li>
                 <li>
-                    <a class="menu-nav-link link" href="#Контакти">Контакти</a>
+                    <a class="menu__link link" href="#Контакти">Контакти</a>
                 </li>
             </ul>
         </nav>
             <!-- контакти -->
-                <ul class="contacts-list list">
-                    <li class="item-email">
-                        <a class="item-link link" href="mailto:info@devstudio.com"> 
-                            <svg aria-label="іконка контактів" class="contact-email-icon"
+                <ul class="contacts list">
+                    <li class="contacts__email-item">
+                        <a class="contacts__link link" href="mailto:info@devstudio.com"> 
+                            <svg aria-label="іконка контактів" class="contacts__email-icon"
                             width="16"
                             height="12">
                                 <use href="./images/sprite.svg#icon-envelope"></use>
                             </svg>info@devstudio.com
                         </a>
                     </li>
-                    <li class="item-tel">
-                        <a class="item-link link" href="tel:+380961111111">
-                            <svg aria-label="іконка контактів" class="contact-telephone-icon"
+                    <li class="contacts__tel-item">
+                        <a class="contacts__link link" href="tel:+380961111111">
+                            <svg aria-label="іконка контактів" class="contacts__telephone-icon"
                             width="10"
                             height="16">
                                 <use href="./images/sprite.svg#icon-smartphone"></use>
@@ -56,91 +55,90 @@
     </header>
 <!----------------========HERO =============-------->
 <main>
-    <section class="section-hero">
-        <div class="container hero">
-            <h1 class="title-hero">Ефективні рішення для <br>
+    <section class="hero">
+        <div class="container hero__container">
+            <h1 class="hero__title">Ефективні рішення для <br>
                  вашого бізнесу</h1>
-                <button data-modal-open class="button-hero" type="button">Замовити послугу</button>
+                <button data-modal-open class="hero__button" type="button">Замовити послугу</button>
         </div>
     </section>
 
 <!-- /* ==========ОСОБЛИВОСТІ=========================== */ -->
-    <section class="priorities section">
+    <section class="section">
         <div class="container">
-         <h2 class="head-title-priorities visually-hidden">Наші пріоритети</h2>
-            <ul class="priorities-list list">
-               
-                <li class="item-priorities">
-                    <div class="features-item">
+         <h2 class="priorities__head-title visually-hidden">Наші пріоритети</h2>
+            <ul class="priorities list">
+                <li class="priorities__item">
+                    <div class="priorities__item_img">
                             <svg aria-label="іконка пріоритетів" 
-                            class="features-icon">
+                            class="priorities__item_icon">
                             <use href="./images/sprite.svg#icon-antenna-1" 
                             width="70"
                             height="70"></use>
                             </svg>
                     </div>
-                    <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p class="text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    <h3 class="priorities__item_title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                    <p class="priorities__item_text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
-                <li class="item-priorities">
-                    <div class="features-item">
+                <li class="priorities__item">
+                    <div class="priorities__item_img">
                             <svg aria-label="іконка пріоритетів" 
-                            class="features-icon"
+                            class="priorities__item_icon"
                             width="70"
                             height="70">
                                 <use href="./images/sprite.svg#icon-clock-1"></use>
                             </svg>
                     </div>
-                    <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
-                   <p class="text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    <h3 class="priorities__item_title">ПУНКТУАЛЬНІСТЬ</h3>
+                   <p class="priorities__item_text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
-                <li class="item-priorities">
-                    <div class="features-item">
+                <li class="priorities__item">
+                    <div class="priorities__item_img">
                             <svg aria-label="іконка пріоритетів" 
-                            class="features-icon"
+                            class="priorities__item_icon"
                             width="70"
                             height="70">
                                 <use href="./images/sprite.svg#icon-diagram-1"></use>
                             </svg>
                     </div>
-                    <h3 class="title">ПЛАНУВАННЯ</h3>
-                    <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
+                    <h3 class="priorities__item_title">ПЛАНУВАННЯ</h3>
+                    <p class="priorities__item_text">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
-                <li class="item-priorities">
-                    <div class="features-item">
+                <li class="priorities__item">
+                    <div class="priorities__item_img">
                             <svg aria-label="іконка пріоритетів" 
-                            class="features-icon"
+                            class="priorities__item_icon"
                             width="70"
                             height="70">
                                 <use href="./images/sprite.svg#icon-astronaut-1"></use>
                             </svg>
                     </div>
-                    <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p class="text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    <h3 class="priorities__item_title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                    <p class="priorities__item_text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
         </div>    
     </section>
 
 <!-- /* =============НАША РОБОТА=============================== */ -->
-    <section class="working section">
+    <section class="work section">
         <div class="container">
-            <h2 class="section-title">Чим ми займаємося</h2>
-            <ul class="working-list list">
+            <h2 class="section__title">Чим ми займаємося</h2>
+            <ul class="work__list list">
                 <li>
-                    <div class="working-space">
-                    <img class="working-img" src="./images/computer.jpg" alt="людина працює за комп'ютером" width="370" height="294">
-                <p class="working-text">Десктопні додатки</p></div>
+                    <div class="work__card">
+                    <img class="work__card_img" src="./images/computer.jpg" alt="людина працює за комп'ютером" width="370" height="294">
+                <p class="work__card_text">Десктопні додатки</p></div>
                 </li>
                 <li>
-                    <div class="working-space">
-                    <img class="working-img" src="./images/tablet.jpg" alt="людина працює за комп'ютером з телефоном" width="370" height="294">
-                <p class="working-text">Мобільні додатки</p></div>
+                    <div class="work__card">
+                    <img class="work__card_img" src="./images/tablet.jpg" alt="людина працює за комп'ютером з телефоном" width="370" height="294">
+                <p class="work__card_text">Мобільні додатки</p></div>
                 </li>
                 <li>
-                    <div class="working-space">
-                    <img class="working-img" src="./images/telephone.jpg" alt="людина працює з графічним планшетом" width="370" height="294">
-                <p class="working-text">Дизайнерські рішення</p></div>
+                    <div class="work__card">
+                    <img class="work__card_img" src="./images/telephone.jpg" alt="людина працює з графічним планшетом" width="370" height="294">
+                <p class="work__card_text">Дизайнерські рішення</p></div>
                 </li>
             </ul>
         </div>

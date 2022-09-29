@@ -1,4 +1,4 @@
-.section-hero {  
+.hero__container {  
     color: var(--color-white);
     font-family: var(--primary-font);
     padding-top: 200px;
@@ -14,14 +14,14 @@
     margin: 0 auto; 
 }
 
-.title-hero {
+.hero__title {
     @include font (900, 44px);
     line-height: 1.36; 
     letter-spacing: 0.06em;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
-.button-hero {
+.hero__button {
     @include font (700, 16px);
     line-height: 1.88;
     background-color: var(--color-light-blue);
