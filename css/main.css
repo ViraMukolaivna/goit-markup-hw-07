@@ -267,7 +267,7 @@ ul {
   font-family: var(--primary-font);
   font-weight: 400;
   font-size: 14px;
-  line-height: 0.58;
+  line-height: 1,71;
   letter-spacing: var(--letter-spacing-normal);
   color: var(--color-light-grey);
   margin-bottom: 30px;

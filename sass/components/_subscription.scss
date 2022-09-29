@@ -2,7 +2,7 @@
     margin-left: auto;
 }
 .title-subscribtion {
-    @include font (700, 14px, 1.14);
+    @include font (700, 14px, 16px);
     letter-spacing: var(--letter-spacing-normal);
     text-transform: uppercase;
     color: var(--color-white); 
@@ -12,7 +12,7 @@
     display: flex; 
 }
 .input-subscr {
-    @include font (400, 16px, 0.8);
+    @include font (400, 16px, 20px);
     display: flex;
     align-items: center;
     min-width: 358px;
@@ -26,7 +26,7 @@
     padding-left: 16px;
 }
 .btn-subscr {
-    @include font (700, 16px, 0.53);
+    @include font (700, 16px, 30px);
     display: flex;
     justify-content: center;
     align-items: center;

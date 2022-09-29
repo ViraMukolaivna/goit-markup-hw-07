@@ -27,7 +27,7 @@
     flex-basis: calc((100% - 90px) / 4);
 }
 .title {   
-    @include font (700, 14px, 1,14);
+    @include font (700, 14px, 16px);
     text-transform: uppercase;
     color: var(--color-dark);
 }

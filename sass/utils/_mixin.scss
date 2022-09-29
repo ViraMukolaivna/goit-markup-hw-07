@@ -1,6 +1,5 @@
-@mixin font ($ff: var(--primary-font), $fw, $fs, $lh) {
+@mixin font ($ff: var(--primary-font), $fw, $fs) {
     font-family: $ff;
     font-weight: $fw;
-    font-size: $fs;
-    line-height: $lh; 
+    font-size: $fs; 
 }

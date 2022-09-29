@@ -1,7 +1,15 @@
 .section-title {
-    @include font (700, 36px, 1.17);
+    @include font (700, 36px, 42px);
     text-align: center;
     letter-spacing: var(--letter-spacing-normal);
     color: var(--color-dark);
     margin-bottom: 50px;
 }
+
+
+
+
+
+
+
+
