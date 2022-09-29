@@ -1,18 +1,6 @@
 .nav-active {
     color: var(--color-light-blue);
 &::after {
-    @extend %change;
-    width: 48px;
-}    
-}
-.f-nav-active {
-    color: var(--color-light-blue);
-&::after {
-    @extend %change;
-    width: 78px;
-}
-}
-%change {
     content: "";
     position: absolute;
     display: block;
@@ -21,4 +9,21 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 28px;
+    width: 48px;
+}    
 }
+.f-nav-active {
+    color: var(--color-light-blue);
+&::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 4px;
+    background: var(--color-light-blue);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28px;
+    width: 78px;
+}
+}
+

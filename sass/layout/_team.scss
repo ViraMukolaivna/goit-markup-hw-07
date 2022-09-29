@@ -6,7 +6,8 @@
     justify-content: space-between;
 }
 .card {
-    @include font ( 500, 16px, 19px );
+    @include font ( 500, 16px);
+    line-height: 1.19;
     background-color: var(--color-white);  
     letter-spacing: var(--letter-spacing-normal);
     align-items: center;

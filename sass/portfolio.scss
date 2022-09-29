@@ -3,8 +3,7 @@
 @import './base/_section.scss';
 
 @import './utils/_variables.scss';
-@import './utils/visually-hidden.scss';
-@import './utils/mixin';
+@import './utils/mixins';
 
 @import './components/_logo.scss';
 @import './components/subscription';
