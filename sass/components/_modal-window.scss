@@ -7,11 +7,11 @@
     padding: 40px;
     background-color: var(--color-white);
 }
-.modal_form {
+.modal__form {
     display: flex;
     flex-direction: column;
 }
-.modal_form__field {
+.modal__form_field {
     margin-bottom: 10px;
 }
 .modal__close_btn {
@@ -30,7 +30,7 @@
     transition: fill var(--transition-dur-and-func);
 
 }
-.modal-input-icon {
+.modal__input_icon {
     transition: fill var(--transition-dur-and-func);
 .modal__close_btn:hover &,
 .modal__close_btn:focus & {
