@@ -8,7 +8,7 @@
     display: flex;
     align-items: baseline;
 }    
-.fotter-address {
+.footer-address {
     font-style: normal;
     margin-right: 70px;
 }
@@ -18,21 +18,19 @@
 .f-contact-item:not(:last-child) {
   margin-bottom: 9px;
 }
-%align {
-    font-family: var(--primary-font);
-    font-size: 14px;
-    line-height: 1.71;
+
+.geo {
+    @include font (400, 14px, 1.71);
     letter-spacing: var(--letter-spacing-normal);
     transition: color var(--transition-dur-and-func);
-}
-.geo {
-    @extend %align;
     color: var(--color-white);  
 &:hover { color:var(--color-dark-blue)}
 &:focus { color:var(--color-dark-blue)}
 }
 .bottom-contacts {
-    @extend %align;
+    @include font (400, 14px, 1.71);
+    letter-spacing: var(--letter-spacing-normal);
+    transition: color var(--transition-dur-and-func);
     color: #ffffff99;
 &:hover { color:var(--color-dark-blue)}
 &:focus { color:var(--color-dark-blue)} 

@@ -8,7 +8,7 @@
     align-items: center; 
     justify-content: space-between;
 }
-.page-nav {
+.page-navigation {
     display: flex;
     align-items: center;
 }
@@ -17,10 +17,7 @@
     column-gap: 50px;
 }
 .menu-nav-link {
-    font-family: var(--primary-font);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+    @include font (500, 14px, 1,14);
     letter-spacing: 0.02em;
     color: var(--color-dark);
     transition: color var(--transition-dur-and-func);
@@ -38,13 +35,10 @@
     margin-right: 50px;
 }
 .item-link {
+    @include font (500, 14px, 1,14);
     display: flex;
     align-items: center; 
-    font-family: var(--primary-font);
     color: var(--color-light-grey);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
     letter-spacing: 0.02em;
     transition: color var(--transition-dur-and-func);
 &:hover, 
@@ -60,19 +54,18 @@
 }
 }
 
-%exchange {
+.contact-email-icon {
     fill: var(--color-light-grey);
     margin-right: 10px;
     transition: fill var(--transition-dur-and-func);
-}
-.contact-email-icon {
-    @extend %exchange;
     width: 16px;
     height: 12px;
 
 }
 .contact-telephone-icon {
-    @extend %exchange;
+    fill: var(--color-light-grey);
+    margin-right: 10px;
+    transition: fill var(--transition-dur-and-func);
     width: 10px;
     height: 16px;
 }

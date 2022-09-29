@@ -27,9 +27,7 @@
     flex-basis: calc((100% - 90px) / 4);
 }
 .title {   
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16px;
+    @include font (700, 14px, 1,14);
     text-transform: uppercase;
     color: var(--color-dark);
 }

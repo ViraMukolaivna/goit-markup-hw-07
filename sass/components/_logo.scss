@@ -1,9 +1,6 @@
-.head-web-studio {
-    font-family: var(--secondary-font);
-    font-weight: 700;
+.head-logo {
+    @include font (var(--secondary-font), 700, 26px, 1.19);
     font-style: normal;
-    font-size: 26px;
-    line-height: 1.19;
     letter-spacing: var(--letter-spacing-normal);
     margin-right: 93px;
 }
@@ -13,17 +10,11 @@
 .second-part {
     color: #000000 ;
 }
-.footer-web-studio {
+.footer-logo {
+    @include font (700, 26px, 1.19);
     display: inline-block;
-    font-family: var(--secondary-font);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
     letter-spacing: var(--letter-spacing-normal);
     margin-bottom: 20px;
-}
-.f-first-part {
-    color: var(--color-light-blue);
 }
 .f-second-part {
     color: var(--color-white) ;

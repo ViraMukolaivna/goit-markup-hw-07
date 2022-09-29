@@ -1,18 +1,12 @@
 .modal-form-title {
-    font-family: var(--primary-font);
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.17;
+    @include font (700, 20px, 1.17);
     text-align: center;
     letter-spacing: var(--letter-spacing-normal);
     color: var(--color-dark);
     margin-bottom: 12px;
 }
 .modal-tip {
-    font-family: var(--primary-font);
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 0.86;
+    @include font (400, 12px, 0.86);
     letter-spacing: 0.01em;
     color: var(--color-light-grey); 
     display: block;
@@ -76,10 +70,7 @@
 
 /* Чекбокс */
 .modal-form-checkbox-field {
-    font-family: var(--primary-font);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 0.58;
+    @include font (400, 14px, 0.58);
     letter-spacing: var(--letter-spacing-normal);
     color: var(--color-light-grey); 
     margin-bottom: 30px;
@@ -120,10 +111,7 @@
 
 /* Кнопка прийняти */
 .modal-form-submit {
-    font-family: var(--primary-font);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 0.53;
+    @include font (700, 16px, 0.53);
     letter-spacing: 0.06em;
     color: var(--color-white);
     background-color: var(--color-light-blue);
