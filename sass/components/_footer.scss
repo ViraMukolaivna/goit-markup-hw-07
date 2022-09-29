@@ -4,22 +4,22 @@
     padding-bottom: 60px;
     display: flex;
 }
-.footer-container {
+.footer__container {
     display: flex;
     align-items: baseline;
 }    
-.footer-address {
+.footer__address {
     font-style: normal;
     margin-right: 70px;
 }
-.f-contact-list {
+.footer__contacts {
   display: inline;
 }
-.f-contact-item:not(:last-child) {
+.footer__contacts_item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.geo {
+.footer__geo {
     @include font (400, 14px);
     line-height: 1.71;
     letter-spacing: var(--letter-spacing-normal);
@@ -28,7 +28,7 @@
 &:hover { color:var(--color-dark-blue)}
 &:focus { color:var(--color-dark-blue)}
 }
-.bottom-contacts {
+.footer__contacts_link {
     @include font (400, 14px);
     line-height: 1.71;
     letter-spacing: var(--letter-spacing-normal);

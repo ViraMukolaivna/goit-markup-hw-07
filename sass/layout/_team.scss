@@ -1,11 +1,11 @@
-.team-space {
+.section-team {
     background-color: #F5F4FA;
 }
-.team-list {
+.team__list {
     display: flex;
     justify-content: space-between;
 }
-.card {
+.team__list_item {
     @include font ( 500, 16px);
     line-height: 1.19;
     background-color: var(--color-white);  
@@ -15,20 +15,20 @@
     border-radius: 0px 0px 4px 4px;
     flex-basis: calc((100% - 90px) / 4);
 }
-.info-team {
+.team__list_card {
     display: block;
     text-align: center;
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.name {
+.card__name {
     font-weight: 500;
     font-size: 16px;
     color: var(--color-dark);
     margin-bottom: 10px;
 }
-.position {
+.card__position {
     font-weight: 400;
     color: var(--color-light-grey); 
 }

@@ -1,7 +1,7 @@
 .subscribtion {
     margin-left: auto;
 }
-.title-subscribtion {
+.subscribtion__title {
     @include font (700, 14px);
     line-height: 1.14;
     letter-spacing: var(--letter-spacing-normal);
@@ -9,10 +9,10 @@
     color: var(--color-white); 
     margin-bottom: 20px;
 }
-.form-subscribtion {
+.subscribtion__form {
     display: flex; 
 }
-.input-subscr {
+.subscribtion__input {
     @include font (400, 16px);
     line-height: 1.25;
     display: flex;
@@ -27,7 +27,7 @@
     border-radius: 4px;
     padding-left: 16px;
 }
-.btn-subscr {
+.subscribtion__button {
     @include font (700, 16px);
     line-height: 1.88;
     display: flex;
@@ -48,7 +48,7 @@
     background-color: var(--color-dark-blue);
 }
 }
-.icon-subscr {
+.subscribtion__button_icon {
     width: 24px;
     height: 24px;
     margin-left: 10px;

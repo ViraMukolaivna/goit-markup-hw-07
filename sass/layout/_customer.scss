@@ -1,11 +1,11 @@
-.customer-list {
+.customer__list {
     display: flex;
     column-gap: 30px;
 }
-.customer-item {
+.customer__item {
     flex-basis: calc((100% - 150px) / 6);
 }
-.customer-link {
+.customer__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,14 +19,14 @@
     border: 1px solid #2196F3;
 }
 }
-.customer-icon {
+.customer__icon {
     width: 106px;
     height: 60px;
     fill: #AFB1B8;
     transition: fill var(--transition-dur-and-func);
 
-.customer-link:hover &,
-.customer-link:focus & {
+.customer__link:hover &,
+.customer__link:focus & {
     fill: var(--color-light-blue)
 }    
 }
