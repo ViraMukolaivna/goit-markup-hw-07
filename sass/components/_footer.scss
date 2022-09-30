@@ -20,7 +20,8 @@
 }
 
 .footer__geo {
-    @include font (400, 14px);
+    font-weight: 400;
+    font-size: 14px;
     line-height: 1.71;
     letter-spacing: var(--letter-spacing-normal);
     transition: color var(--transition-dur-and-func);
@@ -29,7 +30,8 @@
 &:focus { color:var(--color-dark-blue)}
 }
 .footer__contacts_link {
-    @include font (400, 14px);
+    font-weight: 400;
+    font-size: 14px;
     line-height: 1.71;
     letter-spacing: var(--letter-spacing-normal);
     transition: color var(--transition-dur-and-func);

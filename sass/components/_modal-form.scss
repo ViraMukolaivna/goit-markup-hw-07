@@ -1,5 +1,6 @@
 .modal__form_title {
-    @include font (700, 20px);
+    font-weight: 700;
+    font-size: 20px;
     line-height: 1,15;
     text-align: center;
     letter-spacing: var(--letter-spacing-normal);
@@ -7,7 +8,8 @@
     margin-bottom: 12px;
 }
 .modal__tip {
-    @include font (400, 12px);
+    font-weight: 400;
+    font-size: 12px;
     line-height: 1,17;
     letter-spacing: 0.01em;
     color: var(--color-light-grey); 

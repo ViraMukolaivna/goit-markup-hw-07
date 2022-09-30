@@ -2,7 +2,8 @@
     margin-left: auto;
 }
 .subscribtion__title {
-    @include font (700, 14px);
+    font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: var(--letter-spacing-normal);
     text-transform: uppercase;
@@ -13,7 +14,8 @@
     display: flex; 
 }
 .subscribtion__input {
-    @include font (400, 16px);
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.25;
     display: flex;
     align-items: center;
@@ -28,7 +30,8 @@
     padding-left: 16px;
 }
 .subscribtion__button {
-    @include font (700, 16px);
+    font-weight: 700;
+    font-size: 16px;
     line-height: 1.88;
     display: flex;
     justify-content: center;

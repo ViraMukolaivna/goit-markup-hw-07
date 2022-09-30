@@ -1,5 +1,6 @@
 .footer__social_title {
-    @include font (700, 14px);
+    font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: var(--letter-spacing-normal);
     text-transform: uppercase;

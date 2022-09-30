@@ -15,14 +15,16 @@
 }
 
 .hero__title {
-    @include font (900, 44px);
+    font-weight: 900;
+    font-size: 44px;
     line-height: 1.36; 
     letter-spacing: 0.06em;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
 .hero__button {
-    @include font (700, 16px);
+    font-weight: 700;
+    font-size: 16px;
     line-height: 1.88;
     background-color: var(--color-light-blue);
     color: var(--color-white);

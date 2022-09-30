@@ -9,8 +9,9 @@
     position: relative;
 }
 .work__card_text {
-    @include font ( 700, 14px);
-    line-height: 1,14;
+    font-weight: 700;
+        font-size: 14px;
+    line-height: 1.14;
     display: flex;
     justify-content: center;
     padding-top: 27px;
